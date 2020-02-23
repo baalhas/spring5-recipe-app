@@ -1,1 +1,14 @@
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/repositories/UnitOfMeasureRepository.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/domain/UnitOfMeasure.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/domain/Difficulty.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/repositories/CategoryRepository.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexController.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/domain/Category.java
 /home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/Spring5RecipeAppApplication.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/services/RecipeServiceImpl.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/repositories/RecipeRepository.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/services/RecipeService.java
+/home/alhas/Documents/Spring/spring5-recipe-app/src/main/java/guru/springframework/domain/Notes.java
