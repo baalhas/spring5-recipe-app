@@ -12,11 +12,10 @@ import javax.persistence.Id;
 @Entity
 public class UnitOfMeasure {
 
-    private String description;
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String description;
 
 
 
