@@ -15,13 +15,14 @@
             crossorigin="anonymous" th:src="@{/webjars/bootsrap/3.3.7/js/boostrap.min.js}"></script>
 </head>
 <body>
+<!-- /*@thymesVar id="recipe" type="guru.springframework.domain.Recipe"*/-->
 <div class="container-fluid" style="margin-top: 20px">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <div class="pannel-group">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <!-- /*@thymesVar id="recipe" type="guru.springframework.domain.Recipe"*/-->
+
                         <h1 class=guru.springframework.domain.Recipe"panel-title" th:text="${recipe.description}">Recipe
                             Description Here!</h1>
                     </div>
