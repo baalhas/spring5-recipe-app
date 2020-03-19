@@ -22,6 +22,8 @@ public class RecipeServiceImpl implements RecipeService {
     private final RecipeCommandToRecipe recipeCommandToRecipe;
     private final RecipeToRecipeCommand recipeToRecipeCommand;
 
+
+
     public RecipeServiceImpl(RecipeRepository recipeRepository, RecipeCommandToRecipe recipeCommandToRecipe, RecipeToRecipeCommand recipeToRecipeCommand) {
         this.recipeRepository = recipeRepository;
         this.recipeCommandToRecipe = recipeCommandToRecipe;
@@ -42,8 +44,9 @@ public class RecipeServiceImpl implements RecipeService {
 
         Optional<Recipe> recipeOptional = recipeRepository.findById(l);
 
+
         if (!recipeOptional.isPresent()) {
-            throw new NotFoundException("Recipe Not Found!");
+            throw new NotFoundException("Recipe Not Found. For ID value: "  + l.toString());
         }
 
         return recipeOptional.get();
