@@ -8,4 +8,9 @@ workflows:
   maven_test:
     jobs:
       - maven/test # checkout, build, test, and upload test results
-    - run: mvn integration-test coberture:coberture
+      build:
+        steps:
+          - run: mvn integration-test coberture:coberture
+
+
+
